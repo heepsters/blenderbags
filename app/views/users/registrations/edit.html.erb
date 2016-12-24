@@ -4,8 +4,43 @@
   <%= devise_error_messages! %>
 
   <div class="field">
+    <%= f.label :First_Name, "First Name" %><br />
+    <%= f.text_field :fname, autofocus: true %>
+  </div>
+
+  <div class="field">
+    <%= f.label :Last_Name, "Last Name"  %><br />
+    <%= f.text_field :lname %>
+  </div>
+
+  <div class="field">
     <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true %>
+    <%= f.email_field :email %>
+  </div>
+
+  <div class="field">
+    <%= f.label :phone, "Phone Number" %><br />
+    <%= f.text_field :phone %>
+  </div>
+
+  <div class="field">
+    <%= f.label :address_street, "Street Address"  %><br />
+    <%= f.text_field :address_street %>
+  </div>
+
+  <div class="field">
+    <%= f.label :address_city, "City"  %><br />
+    <%= f.text_field :address_city %>
+  </div>
+
+  <div class="field">
+    <%= f.label :address_state, "State"  %><br />
+    <%= f.text_field :address_state %>
+  </div>
+
+  <div class="field">
+    <%= f.label :address_zip, "Zip/Postal Code"  %><br />
+    <%= f.text_field :address_zip %>
   </div>
 
   <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
@@ -32,7 +67,7 @@
   </div>
 
   <div class="actions">
-    <%= f.submit "Update" %>
+    <%= f.submit "Save & Update" %>
   </div>
 <% end %>
 
