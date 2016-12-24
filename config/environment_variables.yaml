@@ -1,0 +1,6 @@
+development:
+  GMAIL_USERNAME: info@disrupsupps.fit
+  GMAIL_PASSWORD: Vivint1224
+production:
+  GMAIL_USERNAME: info@disrupsupps.fit
+  GMAIL_PASSWORD: Vivint1224

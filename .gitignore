@@ -19,3 +19,8 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+
+new.env
+Procfile
+
+config/environment_variables.yml

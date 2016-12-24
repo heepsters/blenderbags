@@ -10,17 +10,18 @@
 
   <body>
     <% if user_signed_in? %>
+    <p>Welcome <%= current_user.fname %>!</p>
       <button>
         <%= link_to "Home", home_index_path %>
       </button>
       <button>
-        <%= link_to "Contact", home_index_path %>
+        <%= link_to "Contact", contact_new_path %>
       </button>
       <button type="button" class="btn btn-secondary">
         <%= link_to "Settings", edit_user_registration_path %>
       </button>
       <button>
-        <%= link_to "Shopping Cart", home_index_path %>
+        <%= link_to "Shopping Cart", shopping_cart_new_path %>
       </button>
       <button id="btn" type="button" class="btn btn-primary">
         <%= link_to "Sign Out", destroy_user_session_path, method: :delete %>
