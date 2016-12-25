@@ -1,7 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
-
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 body {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Raleway', sans-serif;
+}
+#bootstrap-overrides nav .navbar .navbar-default {
+	background-color: inherit;
+}
+a.navbar-brand img {
+	width: 55px;
+	height: 60px;
+	position: absolute;
+	margin: 20px 30px;
 }
 #bootstrap-overrides li a{
 	background-color: inherit;
@@ -10,8 +18,69 @@ body {
 	outline: none;
 	text-decoration: none;
 }
-
-.nav .navbar-nav .navbar-right {
+.create_account {
+	width: auto;
+	height: auto;
+	margin: 40px 15% 0;
+	text-align: center;
 	position: absolute;
-	right: 0;
 }
+.backgroundimg img{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+input {
+	border: none;
+	width: 270px;
+	border-bottom: 1px solid grey;
+	padding: 0px 50px 5px;
+	color: #FFC952;
+	outline: none;
+	background-color: inherit;
+}
+label {
+	color: #FFC952;
+	margin-top: 5px;
+	letter-spacing: 2px;
+	font-size: 12px;
+}
+.submitbtn {
+	margin-top: 30px;
+	margin-left: 48px;
+	background-color: #FF7473;
+	width: 170px;
+	padding: 8px;
+	text-align: center;
+	border-radius: 30px;
+}
+.submitbtn a {
+	text-decoration: none;
+	color: white;
+}
+p {
+	margin-bottom: 5px;
+}
+.rsndbtn a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #79ACE7;
+}
+.rsndbtn a:hover {
+	color: #79E7E2;
+}
+.rsndbtn {
+	margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+
