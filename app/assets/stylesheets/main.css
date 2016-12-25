@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+#bootstrap-overrides li a{
+	background-color: inherit;
+	border-radius: 3px;
+	color: #FFC952;
+	outline: none;
+	text-decoration: none;
+}
+
+.nav .navbar-nav .navbar-right {
+	position: absolute;
+	right: 0;
+}
